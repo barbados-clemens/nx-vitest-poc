@@ -1,0 +1,14 @@
+{
+  "sourceRoot": "libs/my-react-lib-two/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/my-react-lib-two/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

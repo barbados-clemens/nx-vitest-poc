@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "my-react-lib": "libs/my-react-lib",
+    "my-react-lib-two": "libs/my-react-lib-two"
+  }
 }

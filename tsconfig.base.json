@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-vitest-package-scripts/my-react-lib-two": [
+        "libs/my-react-lib-two/src/index.ts"
+      ],
+      "nx-vitest-sample-lib": ["libs/my-react-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
