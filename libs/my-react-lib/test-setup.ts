@@ -2,4 +2,5 @@
 // import "@testing-library/jest-dom/extend-expect";
 //
 // installGlobals();
-console.log("I am the global setup!")
+
+console.log('I am the global setup!');

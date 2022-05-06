@@ -2,6 +2,8 @@
   "name": "nx-vitest-sample-lib",
   "version": "0.0.1",
   "scripts": {
-    "test": "vitest run -r ."
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:ui": "vitest watch --ui"
   }
 }
