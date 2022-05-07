@@ -1,0 +1,18 @@
+import {MyReactLibTwo} from "@nx-vitest-package-scripts/my-react-lib-two";
+import styles from './<%= fileName %>.module.css';
+
+
+/* eslint-disable-next-line */
+export interface <%= className %>Props {
+}
+
+export function <%= className %>(props: <%= className %>Props) {
+  return (
+    <div className={styles['container']}>
+      <h1>Welcome to <%= className %>!</h1>
+      <MyReactLibTwo/>
+    </div>
+  );
+}
+
+export default <%= className %>;

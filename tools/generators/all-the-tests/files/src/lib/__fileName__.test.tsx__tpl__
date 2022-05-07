@@ -1,0 +1,21 @@
+import {it, describe, expect} from 'vitest'
+import renderer from 'react-test-renderer';
+import { <%= className %> } from './<%= fileName %>';
+
+describe("<%= className %>", () => {
+  it('should work', () => {
+    expect(true).toBe(true);
+  })
+
+  it('should render', () => {
+    const cmp = renderer.create(<<%= className %>/>);
+    let tree = cmp.toJSON();
+    expect(tree).toMatchSnapshot();
+  })
+
+  it('should throw error', () => {
+    expect(() => {
+      throw new Error("blah")
+    }).toThrowError("blah");
+  })
+})
